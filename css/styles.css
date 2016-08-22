@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+}
+
+section
+{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #292929;
+    background-image: url("../images/clean-textile.png"); 
+    /*background-image: url("../images/brushed-alum-dark.png");*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;   
+}
+
+/*section:nth-child(even)
+{
+    background-color: #292929;
+    background-image: url("../images/clean-textile.png");    
+}
+*/
+section div.sectionContent
+{
+    width: 75%;
+    padding: 5% 30%;
+    background-color: #D3D3D3;
+}
