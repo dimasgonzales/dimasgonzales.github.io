@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Generator</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+	<script src="scripts/cardgenerator.js"></script>
+</head>
+<body class="CardGeneratorPage">
+	<section class="header">
+		<h1>Card Generator</h1>
+		<span>Use this tool to automatically create a PDF file with regularized cards. Make anything from business cards to ID cards.</span>
+	</section>
+	<section class="pageEditor">
+		<div class="controlsWrapper">
+			<div class="control">
+				<label>
+					Page Size
+				</label>
+				<select>
+					<option value="letter">Letter</option>
+					<option value="legal">Legal</option>
+				</select>
+			</div>
+		</div>
+		<div class="editorWrapper">
+			<canvas></canvas>
+		</div>
+	</section>
+</body>
+</html>
